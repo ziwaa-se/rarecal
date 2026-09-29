@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "RareCal: auditing and repairing the rare-event rates of generative models"
+type: software
+version: 0.1.0
+date-released: 2026-09-29
+license: MIT
+repository-code: "https://github.com/ziwaa-se/rarecal"
+url: "https://ziwaa-se.github.io/rarecal/"
+authors:
+  - family-names: She
+    given-names: Zihua
+    email: she8@purdue.edu
+    affiliation: Purdue University
+  - family-names: Wang
+    given-names: Xiao
+    email: wangxiao@purdue.edu
+    affiliation: Purdue University
+keywords:
+  - generative models
+  - evaluation
+  - extreme value theory
+  - calibration

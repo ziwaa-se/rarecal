@@ -1,0 +1,4 @@
+pair,n_configs,verdict_agreement,kendall_tau_b,verdict_agreement_earlier_samples,kendall_tau_b_earlier_samples
+S1-S2,8,3,-0.3571,4,-0.5
+S1-S3,8,4,0.5714,4,0.5714
+S2-S3,8,3,-0.0714,4,-0.2143

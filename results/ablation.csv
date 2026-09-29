@@ -1,0 +1,23 @@
+component,condition,variant,value1,value2,metric,result
+gpd_audit_threshold,p=0.0001,gpd_on,15.838503061053258,16.129062355967164,induced rho-error at estimated threshold,1.2856478231392559
+gpd_audit_threshold,p=0.0001,gpd_off_empirical,15.824692200436155,16.129062355967164,induced rho-error at estimated threshold,1.3133956178832686
+gpd_audit_threshold,p=1e-05,gpd_on,17.54071592862273,18.10567369421513,induced rho-error at estimated threshold,1.7573603337874721
+gpd_audit_threshold,p=1e-05,gpd_off_empirical,17.73529350035521,18.10567369421513,induced rho-error at estimated threshold,1.3873897372006359
+gpd_wrapper,"clean_calibrated,p=0.001",gpd_on,nan,nan,wrapped rho,0.99
+gpd_wrapper,"clean_calibrated,p=0.001",gpd_off_empirical,nan,nan,wrapped rho,1.01
+gpd_wrapper,"clean_calibrated,p=0.0001",gpd_on,nan,nan,wrapped rho,0.6
+gpd_wrapper,"clean_calibrated,p=0.0001",gpd_off_empirical,nan,nan,wrapped rho,0.6
+gpd_wrapper,"adversarial_truncated,p=0.001",gpd_on,nan,nan,wrapped rho,0.99
+gpd_wrapper,"adversarial_truncated,p=0.001",gpd_off_empirical,nan,nan,wrapped rho,1.01
+gpd_wrapper,"adversarial_truncated,p=0.0001",gpd_on,nan,nan,wrapped rho,0.6
+gpd_wrapper,"adversarial_truncated,p=0.0001",gpd_off_empirical,nan,nan,wrapped rho,0.6
+gpd_wrapper,"adversarial_overshoot,p=0.001",gpd_on,nan,nan,wrapped rho,0.99
+gpd_wrapper,"adversarial_overshoot,p=0.001",gpd_off_empirical,nan,nan,wrapped rho,1.01
+gpd_wrapper,"adversarial_overshoot,p=0.0001",gpd_on,nan,nan,wrapped rho,0.6
+gpd_wrapper,"adversarial_overshoot,p=0.0001",gpd_off_empirical,nan,nan,wrapped rho,0.6
+transport_chart,EDM,full,0.00018398663505081458,1.7878756586969085,med|sev-target| / p95 ; result=frac within .05,0.714
+transport_chart,EDM,oneshot,1.8761318522037511,2.839202868602042,med|sev-target| / p95 ; result=frac within .05,0.0
+transport_chart,EDM,pixel,1.9820962144603076,2.871760848715756,med|sev-target| / p95 ; result=frac within .05,0.0
+transport_chart,iDDPM,full,5.033456394798463e-06,2.6144771267759994,med|sev-target| / p95 ; result=frac within .05,0.761
+transport_chart,iDDPM,oneshot,2.192764130041354,3.7772447774995856,med|sev-target| / p95 ; result=frac within .05,0.0
+transport_chart,iDDPM,pixel,2.4858855497036334,3.847784563123639,med|sev-target| / p95 ; result=frac within .05,0.0

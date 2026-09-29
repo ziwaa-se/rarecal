@@ -1,0 +1,4 @@
+p,tau,tau_source,e_self
+0.001,12.652130,hold_empirical,0.6039
+0.0001,14.203884,hold_empirical_NEAR_MAX_disclosed,0.0000
+0.0001,13.255762,gpd_extrapolation,1.0000
