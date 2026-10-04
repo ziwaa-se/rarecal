@@ -1,0 +1,20 @@
+tag,n,spearman,spearman_p_approx,dropped_config,note
+matched published FID vs |log rho|,7,0.6786,0.0938,,matched set = configs with both axes
+matched measured FMD vs |log rho|,7,0.3214,0.4821,,matched set = configs with both axes
+all common-M FMD vs |log rho|,8,0.1429,0.7358,,matched set = configs with both axes
+LOO published FID/FMD vs |log rho|,6,0.6,0.208,iDDPM,leave-one-out
+LOO published FID/FMD vs |log rho|,6,0.6,0.208,EDM,leave-one-out
+LOO published FID/FMD vs |log rho|,6,0.6571,0.1562,EDM2-S,leave-one-out
+LOO published FID/FMD vs |log rho|,6,0.6571,0.1562,EDM2-M,leave-one-out
+LOO published FID/FMD vs |log rho|,6,0.6571,0.1562,StyleGAN-XL,leave-one-out
+LOO published FID/FMD vs |log rho|,6,0.8286,0.0416,DiT-cfg1.5,leave-one-out
+LOO published FID/FMD vs |log rho|,6,0.6571,0.1562,DiT-cfg1.0,leave-one-out
+LOO range published,6,"[+0.60,+0.83]",,,range over all single deletions
+LOO measured FID/FMD vs |log rho|,6,-0.0857,0.8717,iDDPM,leave-one-out
+LOO measured FID/FMD vs |log rho|,6,0.4857,0.3287,EDM,leave-one-out
+LOO measured FID/FMD vs |log rho|,6,0.3714,0.4685,EDM2-S,leave-one-out
+LOO measured FID/FMD vs |log rho|,6,0.3714,0.4685,EDM2-M,leave-one-out
+LOO measured FID/FMD vs |log rho|,6,0.0857,0.8717,StyleGAN-XL,leave-one-out
+LOO measured FID/FMD vs |log rho|,6,0.4857,0.3287,DiT-cfg1.5,leave-one-out
+LOO measured FID/FMD vs |log rho|,6,0.4857,0.3287,DiT-cfg1.0,leave-one-out
+LOO range measured,6,"[-0.09,+0.49]",,,range over all single deletions
